@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=GNOME Settings Daemon's datetime plugin
-Exec=/usr/lib/gnome-settings-daemon/gsd-datetime
+Name=GNOME Settings Daemon's keyboard plugin
+Exec=@libexecdir@/gsd-keyboard
 OnlyShowIn=Pantheon;
 NoDisplay=true
 X-GNOME-Autostart-Phase=Initialization
