@@ -21,6 +21,7 @@ gsd_desktop = [
     'org.gnome.SettingsDaemon.Mouse-pantheon.desktop.in',
     'org.gnome.SettingsDaemon.XSettings-pantheon.desktop.in'.
       ]
+
 if get_option('patched-gsd-autostarts')
     install_subdir(
         'gsd',
